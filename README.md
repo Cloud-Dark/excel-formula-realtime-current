@@ -30,13 +30,17 @@ Here's an awesome spreadsheet listing all the available parameters as well as th
 ## =GoogleClock()
 
 If you plan to publish the spreadsheet to the web, the above function won't work as (like I have noted above), it is only updated when you edit the current spreadsheet (i.e. type/edit/delete a value in any cell). For published and rarely updated spreadsheets there is another useful function that can turn really helpful (it is undocumented but is included in the Google Spreadsheet formula builder. This is how I actually discovered it).
+
 ![enter image description here](https://i.ibb.co/CndcFfs/image.png)
+
 If you use the _=GoogleClock()_  function in a spreadsheet, it will automatically update live whenever you view the spreadsheet (including shared viewing). Besides, if you publish a spreadsheet as a webpage, it will automatically update every 5 minutes.
 
 The function always returns the current date and time in the following format (unless there are any parameters I am not aware of):
 
 > m/dd/yyyy hh:mm:ss
+
 ![enter image description here](https://i.ibb.co/x6DZTt7/image.png)
+
 Note: Here are similar functions for Microsoft Excel (also updated live). Want more? Here's a list of  Google Spreadsheet tricks that are easy to remember
 
 Are you aware of any other time management functions in Google Spreadsheets? Please let us know!
